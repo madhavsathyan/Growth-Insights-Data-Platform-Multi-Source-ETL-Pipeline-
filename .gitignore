@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Airflow
+logs/
+airflow-logs/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+
+# Database & Storage Volumes
+postgres_data/
+pgdata/
+*.sqlite
+*.db
+
+# Data files (ignore contents, keep .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+data/clean/*
+!data/clean/.gitkeep
+
+data/rejected/*
+!data/rejected/.gitkeep
+
+# IDEs & OS generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
